@@ -1,34 +1,52 @@
 html {
-    font-size: 16px;
+  
     font-family: 'Ubuntu', sans-serif;
-    margin: auto 0;
+    
 }
 
-.container-1, .container-2 {
+body {
+    font-size: 1.125rem;
+    color: #707070;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 25px;;
+}
+/* Typography */
+h1 {
+    font-size: 3rem;
+    color: #312614;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-top: 0;
+}
+/* Layout */
+.container-1, .container-2, .container, img {
+   display: flex;
+    margin: 0 auto;
+    max-width: 980px;
+    width: 90%;
+    
+}
+
+.collums {
     display: flex;
-    
+    margin: 1em 0;
 }
 
-.container-2{
-    
+h1 span {
+    color: #B7832F
 }
 
-.col-1 {
-    flex: 1
-}
-
-.col-2 {
-    flex: 2
-}
-
-.col-3 {
-    flex: 3
-}
-
-.col-4 {
-    width: 30%;
-}
-
-.col-5 {
-    width: 30%
+#textbox {
+    background-color: #312614;
+    padding: 1em;
+    border-radius: 25px;
 }

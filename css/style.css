@@ -12,12 +12,13 @@ body {
 
 img {
     max-width: 100%;
-    border-radius: 25px;;
+    border-radius: 25px;
 }
 /* Typography */
 h1 {
     font-size: 3rem;
     color: #312614;
+    text-align: center;
 }
 
 h2 {
@@ -28,25 +29,38 @@ p {
     margin-top: 0;
 }
 /* Layout */
-.container-1, .container-2, .container, img {
-   display: flex;
+.container {
     margin: 0 auto;
     max-width: 980px;
-    width: 90%;
+    width: 95%;
     
 }
 
 .collums {
     display: flex;
     margin: 1em 0;
+    justify-content: space-between;
+    
 }
 
 h1 span {
     color: #B7832F
 }
 
-#textbox {
+.col-bg{
     background-color: #312614;
     padding: 1em;
     border-radius: 25px;
+}
+
+.col-1 {
+    width: 20%;
+}
+
+.col-2 {
+    width: 45%;
+}
+
+.col-3 {
+    width: 70%;
 }

@@ -87,3 +87,32 @@ h1 span {
         width: 100%;
     }
 }
+
+
+/* Navigation Bar */
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+
+   
+}
+
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+
+}
+
+nav a:hover {
+
+}

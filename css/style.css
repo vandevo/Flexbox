@@ -14,7 +14,7 @@ body {
 /* Images*/
 
 img {
-    max-width: 100%;
+    max-width: 90%;
     border-radius: 25px;
     margin: 1em auto;
 }
@@ -49,6 +49,18 @@ p {
     max-width: 980px;
     width: 95%;
     
+    
+}
+
+.container-header {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 .colums {

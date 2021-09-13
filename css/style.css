@@ -64,6 +64,19 @@ p {
     justify-content: space-between;
 }
 
+@media (max-width:675px){
+   
+    
+    .container-nav {
+        flex-direction: column;
+       
+        
+    }
+    header {
+        text-align: center;
+    }
+}
+
 .colums {
     display: flex;
     margin: 1em 0;
@@ -103,6 +116,7 @@ p {
         width: 100%;
     }
 }
+
 
 
 /* Navigation Bar */
@@ -148,4 +162,14 @@ nav a:focus {
 
 .current-page:hover {
     color: #707070;
+}
+
+@media (max-width:675px){
+   nav ul {
+       flex-direction: column;
+   }
+
+   nav li {
+       margin: .5em
+   }
 }
